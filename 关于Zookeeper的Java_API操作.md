@@ -10,7 +10,7 @@ ZKConnectSessionWatcher : 会话连接操作
 
 ZKNodeOperator：关于结点的增删改查操作
 
-Constatnts：静态常量
+Constants：静态常量
 
 ## 官方文档API类
 

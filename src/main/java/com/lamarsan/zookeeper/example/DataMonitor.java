@@ -1,4 +1,4 @@
-package com.lamarsan.zookeeper;
+package com.lamarsan.zookeeper.example;
 
 import org.apache.zookeeper.AsyncCallback.StatCallback;
 import org.apache.zookeeper.KeeperException;

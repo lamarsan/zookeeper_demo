@@ -1,4 +1,4 @@
-package com.lamarsan.zookeeper;
+package com.lamarsan.zookeeper.connect;
 
 import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
@@ -6,7 +6,7 @@ import org.apache.zookeeper.ZooKeeper;
 
 import java.util.logging.Logger;
 
-import static com.lamarsan.zookeeper.Constants.*;
+import static com.lamarsan.zookeeper.commons.Constants.*;
 
 /**
  * className: ZKConnect

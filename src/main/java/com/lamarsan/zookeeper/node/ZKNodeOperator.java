@@ -1,12 +1,15 @@
-package com.lamarsan.zookeeper;
+package com.lamarsan.zookeeper.node;
 
+import com.lamarsan.zookeeper.commons.Constants;
+import com.lamarsan.zookeeper.commons.CreateCallBack;
+import com.lamarsan.zookeeper.commons.DeleteCallBack;
 import org.apache.zookeeper.*;
 import org.apache.zookeeper.data.ACL;
 
 import java.io.IOException;
 import java.util.List;
 
-import static com.lamarsan.zookeeper.Constants.ZK_SERVER_PATH;
+import static com.lamarsan.zookeeper.commons.Constants.ZK_SERVER_PATH;
 
 /**
  * className: ZKNodeOperator

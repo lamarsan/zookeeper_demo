@@ -1,4 +1,4 @@
-package com.lamarsan.zookeeper;
+package com.lamarsan.zookeeper.commons;
 
 /**
  * className: Constants

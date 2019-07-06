@@ -1,4 +1,4 @@
-package com.lamarsan.zookeeper;
+package com.lamarsan.zookeeper.node;
 
 import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.WatchedEvent;
@@ -9,7 +9,8 @@ import org.apache.zookeeper.data.Stat;
 import java.io.IOException;
 import java.util.concurrent.CountDownLatch;
 
-import static com.lamarsan.zookeeper.Constants.*;
+import static com.lamarsan.zookeeper.commons.Constants.TIMEOUT;
+import static com.lamarsan.zookeeper.commons.Constants.ZK_SERVER_PATH;
 /**
  * className: ZKGetNodeData
  * description: TODO

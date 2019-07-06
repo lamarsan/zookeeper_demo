@@ -16,4 +16,6 @@ public class Constants {
     public static final String RECEIVE = "接收到watch通知:";
     public static final String RESTART = "开始会话重连";
     public static final String RESTART_STATE = "开始会话重连状态zkSession:";
+    public static final String CONFIG_NODE_PATH = "/super/lamar";
+    public static final String SUB_PATH = "/redis-config";
 }
